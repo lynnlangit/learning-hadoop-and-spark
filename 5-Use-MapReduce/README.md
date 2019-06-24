@@ -3,9 +3,9 @@ Companion Repository to Learning Hadoop course on Linked In Learning
 
 Course is here - https://www.lynda.com/Hadoop-tutorials/Hadoop-Fundamentals/191942-2.html
 
-Examples:
--- WordCount
--- Customized WordCount (Tokenizer...)
+Examples:  
+-- WordCount -- runs in any Hadoop mode  
+-- Advanced WordCount (Tokenizer...) - requires HFDS, so can run in psuedo or full-dist mode - [link](https://hadoop.apache.org/docs/r3.0.0/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html)  
 -- Multi-file WordCount  
 
 ### How to Compile WordCount
