@@ -1,10 +1,10 @@
 # learning-hadoop
+Companion Repository to Linked In Learning Courses
+- Learning Hadoop
+- Learning Spark  
 
-**IMPORTANT** - this Repo is in progress as I am working to update the online course now 
+Original `Learning Hadoop` Course is here - https://www.lynda.com/Hadoop-tutorials/Hadoop-Fundamentals/191942-2.html
 
-----
+### Sample code
 
-
-Companion Repository to Learning Hadoop course on Linked In Learning
-
-Course is here - https://www.lynda.com/Hadoop-tutorials/Hadoop-Fundamentals/191942-2.html
+Calculate the digits of Pi using PySpark to 
