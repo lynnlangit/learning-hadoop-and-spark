@@ -1,7 +1,9 @@
 # learning-hadoop
-Companion Repository to Learning Hadoop course on Linked In Learning
+Companion Repository to Linked In Learning Courses
+- Learning Hadoop
+- Learning Spark
 
-Course is here - https://www.lynda.com/Hadoop-tutorials/Hadoop-Fundamentals/191942-2.html
+Original Hadoop Course is here - https://www.lynda.com/Hadoop-tutorials/Hadoop-Fundamentals/191942-2.html
 
 ### Sample code
 
