@@ -21,3 +21,11 @@ There are 3 execute modes of accessing Grunt shell:
 Default is mapreduce, so if you just type pig, it will use mapreduce as the execution mode.
 
 `pig`
+
+### More Info
+
+===============
+1. To learn about Pig, try http://wiki.apache.org/pig/PigTutorial
+2. To build and run Pig, try http://wiki.apache.org/pig/BuildPig and
+http://wiki.apache.org/pig/RunPig
+3. To check out the function library, try http://wiki.apache.org/pig/PiggyBank
