@@ -1,15 +1,20 @@
 # learning-hadoop
-Companion Repository to Linked In Learning Courses
-- Learning Hadoop
-- Learning Spark  
+### Contents
+This is the companion repo to my LinkedIn Learning Courses
+1. **Learning Hadoop** - [link](https://www.lynda.com/Hadoop-tutorials/Hadoop-Fundamentals/191942-2.html)  
+2. **Learning Spark** - [link soon]
 
-Original `Learning Hadoop` Course [link](https://www.lynda.com/Hadoop-tutorials/Hadoop-Fundamentals/191942-2.html)
+### DevEnv Setup Instructions
 
-### Sample code
+- Setup a Hadoop/Spark cloud-cluster
+- Setup a Hadoop/Spark dev environment
 
-- Calculate the digits of Pi using PySpark 
+### Example Jobs or Scripts
 
-### Other Courses
+- Run a Hadoop **WordCount** Job with Java (jar file)
+- Run a Hadoop and/or Spark **CalculatePi** (digits) Script with PySpark or other libraries
+
+### Other LinkedIn Learning Courses on Hadoop or Spark
 
 - Hadoop for Data Science Tips and Tricks - [link](https://www.linkedin.com/learning/hadoop-for-data-science-tips-tricks-techniques)
     - Set up Cloudera Enviroment
