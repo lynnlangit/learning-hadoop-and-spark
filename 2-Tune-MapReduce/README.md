@@ -1,4 +1,3 @@
-# learning-hadoop
-Companion Repository to Learning Hadoop course on Linked In Learning
+# Advanced MapReduce WordCount
 
-Course is here - https://www.lynda.com/Hadoop-tutorials/Hadoop-Fundamentals/191942-2.html
+- Example from Apache Hadoop examples - [link](https://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html)
