@@ -13,6 +13,7 @@ This is the companion repo to my LinkedIn Learning Courses
 
 - Run a Hadoop **WordCount** Job with Java (jar file)
 - Run a Hadoop and/or Spark **CalculatePi** (digits) Script with PySpark or other libraries
+- Run using Cloudera shared demo env at `https://demo.gethue.com/` login is user:demo, pwd:demo
 
 ### Other LinkedIn Learning Courses on Hadoop or Spark
 
