@@ -1,3 +1,3 @@
-# Advanced MapReduce WordCount
+# Advanced MapReduce WordCount Code Samples
 
-- Example from Apache Hadoop examples - [link](https://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html)
+- Source code from Apache Hadoop examples - [link](https://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html)
