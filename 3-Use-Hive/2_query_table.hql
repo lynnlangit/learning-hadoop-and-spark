@@ -1,7 +1,7 @@
-SELECT Persons1000.LastName, Persons1000.FirstName
+SELECT Persons.LastName, Persons.FirstName
 FROM
-  Persons1000
+  Persons
 WHERE
-( Persons1000.City = 'Bergen')
-ORDER BY Persons1000.LastName DESC
+( Persons.City = 'Bergen')
+ORDER BY Persons.LastName DESC;
 
