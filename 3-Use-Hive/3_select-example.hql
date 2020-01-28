@@ -1,3 +1,4 @@
+--Example of typical HIVE Query (HQL)
 SELECT sample_07.description, sample_07.salary
 FROM
   sample_07
