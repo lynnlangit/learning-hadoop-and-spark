@@ -30,5 +30,5 @@ This is the companion repo to my LinkedIn Learning Courses on Hadoop and Spark. 
 - **Spark** courses - [link](https://www.linkedin.com/learning/search?entityType=COURSE&keywords=Spark&software=Apache%20Spark~Hadoop)
     - Various Topics - see screenshot below
 
-![LinkedInLearningSpark]()
+![LinkedInLearningSpark](spark-courses.png)
 
