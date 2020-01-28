@@ -22,14 +22,15 @@ cd ~
 hadoop version
 
 # create a directory in HDFS
+# REMINDER: HDFS files are immutable
 hadoop fs -mkdir demo-hadoop
 
 # upload a file to a HDFS directory
 # hadoop fs put --from source_path_and_file --to dest_path_and_file
-hadoop fs -put /home/developer01/shakespeare.raw ./demo-hadoop/shakespeare.raw
+hadoop fs -put /home/developer01/shakespeare.raw demo-hadoop/shakespeare.raw
 
 # list the contents of an HDFS directory
 hadoop fs -ls /usr/hadoop-demo
 
 # read part of the file
-hadoop fs -cat ./demo/demo-hadoop/shakespeare.raw | tail -n50
+hadoop fs -cat demo-hadoop/shakespeare.raw | tail -n50
