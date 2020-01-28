@@ -12,28 +12,27 @@ import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
+import org.apache.hadoop.util.GenericOptionsParser;
+import org.apache.hadoop.util.StringUtils;
+
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mapreduce.Reducer;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.Counter;
-import org.apache.hadoop.util.GenericOptionsParser;
-import org.apache.hadoop.util.StringUtils;
+
 
 public class WordCountCache {
 
-  public static class TokenizerMapper
-       extends Mapper<Object, Text, Text, IntWritable>{
+  public static class TokenizerMapper extends Mapper<Object, Text, Text, IntWritable>{
 
     static enum CountersEnum { INPUT_WORDS }
 
     private final static IntWritable one = new IntWritable(1);
     private Text word = new Text();
-
     private boolean caseSensitive;
     private Set<String> patternsToSkip = new HashSet<String>();
-
     private Configuration conf;
     private BufferedReader fis;
 
@@ -84,8 +83,7 @@ public class WordCountCache {
     }
   }
 
-  public static class IntSumReducer
-       extends Reducer<Text,IntWritable,Text,IntWritable> {
+  public static class IntSumReducer extends Reducer<Text,IntWritable,Text,IntWritable> {
     private IntWritable result = new IntWritable();
 
     public void reduce(Text key, Iterable<IntWritable> values,
