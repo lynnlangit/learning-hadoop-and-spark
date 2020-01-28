@@ -28,5 +28,7 @@ This is the companion repo to my LinkedIn Learning Courses on Hadoop and Spark. 
     - Connecting to Hadoop Hive
     - Complex Data Structures in Hive
 - **Spark** courses - [link](https://www.linkedin.com/learning/search?entityType=COURSE&keywords=Spark&software=Apache%20Spark~Hadoop)
-    - Various Topics
+    - Various Topics - see screenshot below
+
+![LinkedInLearningSpark]()
 
