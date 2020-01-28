@@ -3,7 +3,7 @@
 
 ![Learning Hadoop Outline](https://github.com/lynnlangit/learning-hadoop-and-spark/blob/master/images/learning-hadoop-outline.png)
 
-This is the companion repo to my LinkedIn Learning Courses
+This is the companion repo to my LinkedIn Learning Courses on Hadoop and Spark.  Outline for `Learning Hadoop` shown above.
 1. **Learning Hadoop** - [link](https://www.lynda.com/Hadoop-tutorials/Hadoop-Fundamentals/191942-2.html)  
 2. **Learning Spark** - [link soon]
 
