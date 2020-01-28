@@ -30,7 +30,7 @@ hadoop fs -mkdir demo-hadoop
 hadoop fs -put /home/developer01/shakespeare.raw demo-hadoop/shakespeare.raw
 
 # list the contents of an HDFS directory
-hadoop fs -ls /usr/hadoop-demo
+hadoop fs -ls demo-hadoop
 
 # read part of the file
 hadoop fs -cat demo-hadoop/shakespeare.raw | tail -n50
