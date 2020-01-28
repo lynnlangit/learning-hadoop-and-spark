@@ -26,7 +26,7 @@ hadoop fs -mkdir demo-hadoop
 
 # upload a file to a HDFS directory
 # hadoop fs put --from source_path_and_file --to dest_path_and_file
-fs put /home/developer01/shakespeare.raw --to dest_path_and_file
+fs put /home/developer01/shakespeare.raw ./demo/demo-hadoop/shakespeare.raw
 
 # list the contents of an HDFS directory
 hadoop fs -ls /usr/hadoop-demo
