@@ -16,6 +16,8 @@ This is the companion repo to my LinkedIn Learning Courses on Hadoop and Spark. 
 
 ### Example Jobs or Scripts
 
+**EXAMPLES from `org.apache.hadoop_or_spark.examples` - link for [Spark examples](https://github.com/apache/spark/tree/master/examples/src/main/scala/org/apache/spark/examples)
+
 - Run a Hadoop **WordCount** Job with Java (jar file)
 - Run a Hadoop and/or Spark **CalculatePi** (digits) Script with PySpark or other libraries
 - Run using Cloudera shared demo env at `https://demo.gethue.com/` login is user:`demo`, pwd:`demo`
