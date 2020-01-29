@@ -37,3 +37,19 @@ gcloud dataproc jobs submit spark --cluster <cluster-name> \\
   --jar file:///usr/lib/spark/lib/spark-examples.jar \\
   --class org.apache.spark.examples.JavaWordCount
   <URI of input file>
+
+  #### More Info
+
+- the package name is `org.apache.hadoop.examples` 
+- the class name is `WordCount`
+- use these names when you submit the MapReduce job
+
+#### Still More
+
+ - review - `MR-WordCount-examples.java`
+ - build - `mvn clean package` (may have to edit examples `pom.xml`)
+ - verify - Once the command finishes, the wordcountjava/target directory contains a file named `wordcountjava-1.0-SNAPSHOT.jar`.
+
+ - upload jar and run it
+ - run command - `yarn jar wordcountjava-1.0-SNAPSHOT.jar org.apache.hadoop.examples.WordCount /example/data/gutenberg/davinci.txt /example/data/wordcountout`
+ - review results - `hdfs dfs -cat /example/data/wordcountout/*`
