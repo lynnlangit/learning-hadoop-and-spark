@@ -6,6 +6,7 @@
 This is the companion repo to my LinkedIn Learning Courses on Hadoop and Spark.  Outline for `Learning Hadoop` shown above.
 1. **Learning Hadoop** - [link](https://www.lynda.com/Hadoop-tutorials/Hadoop-Fundamentals/191942-2.html)  
 2. **Learning Spark** - [link soon]
+3. **Azure Databricks Spark Essential Training** - [link](https://www.linkedin.com/learning/azure-databricks-essential-training)
 
 ### DevEnv Setup Instructions
 
