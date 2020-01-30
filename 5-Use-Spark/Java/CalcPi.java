@@ -1,18 +1,15 @@
+import java.util.ArrayList;
+import java.util.List;
+
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
 import org.apache.spark.sql.SparkSession;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public final class CalcPi {
 
   public static void main(String[] args) throws Exception {
-    SparkSession spark = SparkSession
-      .builder()
-      .appName("JavaSparkPi")
-      .getOrCreate();
 
+    SparkSession spark = SparkSession.builder().appName("JavaSparkPi").getOrCreate();
     JavaSparkContext jsc = new JavaSparkContext(spark.sparkContext());
 
     int slices = (args.length == 1) ? Integer.parseInt(args[0]) : 2;
@@ -31,7 +28,6 @@ public final class CalcPi {
     }).reduce((integer, integer2) -> integer + integer2);
 
     System.out.println("Pi is roughly " + 4.0 * count / n);
-
     spark.stop();
   }
 }
