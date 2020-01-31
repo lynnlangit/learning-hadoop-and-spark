@@ -275,11 +275,11 @@ from pyspark.mllib.evaluation import RegressionMetrics
 mapped = holdout.select("prediction", "count").rdd.map(lambda x: (float(x[0]), float(x[1])))
 rm = RegressionMetrics(mapped)
 
-print "MSE: ", rm.meanSquaredError
-print "MAE: ", rm.meanAbsoluteError
-print "RMSE Squared: ", rm.rootMeanSquaredError
-print "R Squared: ", rm.r2
-print "Explained Variance: ", rm.explainedVariance
+print ("MSE: ", rm.meanSquaredError)
+print ("MAE: ", rm.meanAbsoluteError)
+print ("RMSE Squared: ", rm.rootMeanSquaredError)
+print ("R Squared: ", rm.r2)
+print ("Explained Variance: ", rm.explainedVariance)
 
 # COMMAND ----------
 
@@ -359,11 +359,11 @@ from pyspark.mllib.evaluation import RegressionMetrics
 mapped2 = holdout2.select("prediction", "count").rdd.map(lambda x: (float(x[0]), float(x[1])))
 rm2 = RegressionMetrics(mapped2)
 
-print "MSE: ", rm2.meanSquaredError
-print "MAE: ", rm2.meanAbsoluteError
-print "RMSE Squared: ", rm2.rootMeanSquaredError
-print "R Squared: ", rm2.r2
-print "Explained Variance: ", rm2.explainedVariance
+print ("MSE: ", rm2.meanSquaredError)
+print ("MAE: ", rm2.meanAbsoluteError)
+print ("RMSE Squared: ", rm2.rootMeanSquaredError)
+print ("R Squared: ", rm2.r2)
+print ("Explained Variance: ", rm2.explainedVariance)
 
 # COMMAND ----------
 
