@@ -28,7 +28,7 @@ spark
 # COMMAND ----------
 
 firstDataFrame = spark.range(1000000)
-print firstDataFrame
+print (firstDataFrame)
 
 # COMMAND ----------
 
@@ -65,9 +65,9 @@ secondDataFrame = firstDataFrame.selectExpr("(id * 2) as value")
 # COMMAND ----------
 
 # take the first 5 values that we have in our firstDataFrame, use print to see the results
-print firstDataFrame.take(5)
+print (firstDataFrame.take(5))
 # take the first 5 values that we have in our secondDataFrame, use print to see the results
-print secondDataFrame.take(5)
+print (secondDataFrame.take(5))
 
 # COMMAND ----------
 
