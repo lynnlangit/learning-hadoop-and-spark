@@ -7,14 +7,10 @@
 
 # COMMAND ----------
 
-df <- createDataFrame(sqlContext, faithful)
+library(SparkR)
+df <- createDataFrame(faithful)
 
-# COMMAND ----------
-
-# MAGIC %md Display the `df` dataframe using the `head` method.
-
-# COMMAND ----------
-
+# Displays the content of the DataFrame to stdout
 head(df)
 
 # COMMAND ----------
@@ -162,3 +158,7 @@ iris_data <- createDataFrame(iris)
 model <- glm(Sepal_Length ~ Sepal_Width + Species, data = iris_data, family = "gaussian")
 
 summary(model)
+
+# COMMAND ----------
+
+
