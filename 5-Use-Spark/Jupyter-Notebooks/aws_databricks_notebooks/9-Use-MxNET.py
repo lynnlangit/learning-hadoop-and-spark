@@ -61,13 +61,14 @@ print (mx.__version__)
 import numpy as np
 import os
 import urllib
+import urllib.request
 import gzip
 import struct
 
 def download_data(url, force_download=True): 
     fname = url.split("/")[-1]
     if force_download or not os.path.exists(fname):
-        urllib.urlretrieve(url, fname)
+        urllib.request.urlretrieve(url, fname)
     return fname
 
 def read_data(label_url, image_url):
@@ -170,7 +171,7 @@ display()
 # COMMAND ----------
 
 prob = model.predict(val_img[0:1].astype(np.float32)/255)[0]
-print 'Classified as %d with probability %f' % (prob.argmax(), max(prob))
+print ('Classified as %d with probability %f' % (prob.argmax(), max(prob)))
 
 # COMMAND ----------
 
@@ -178,7 +179,7 @@ print 'Classified as %d with probability %f' % (prob.argmax(), max(prob))
 
 # COMMAND ----------
 
-print 'Validation accuracy: %f%%' % (model.score(val_iter)*100,)
+print ('Validation accuracy: %f%%' % (model.score(val_iter)*100,))
 
 # COMMAND ----------
 
@@ -224,4 +225,4 @@ model.fit(
 
 # COMMAND ----------
 
-print 'Validation accuracy: %f%%' % (model.score(val_iter)*100,)
+print ('Validation accuracy: %f%%' % (model.score(val_iter)*100,))
