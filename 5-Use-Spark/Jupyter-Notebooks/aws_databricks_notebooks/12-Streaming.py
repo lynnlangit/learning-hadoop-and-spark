@@ -113,7 +113,7 @@ streamingCountsDF = (
     .count()
 )
 
-print "Is this DF actually a streaming DF?", ("Yes" if streamingCountsDF.isStreaming else "No")
+print ("Is this DF actually a streaming DF?", ("Yes" if streamingCountsDF.isStreaming else "No"))
 
 # COMMAND ----------
 
