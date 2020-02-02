@@ -1,4 +1,5 @@
-# learning-hadoop
+# learning-hadoop-and-spark
+
 Companion Repository to Linked In Learning Courses
 - Learning Hadoop
 - Scaling Cloud Spark  
