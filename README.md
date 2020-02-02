@@ -26,6 +26,7 @@ This is the companion repo to my LinkedIn Learning Courses on Hadoop and Spark.
 - Run using Cloudera shared demo env 
     - at `https://demo.gethue.com/` 
     - login is user:`demo`, pwd:`demo`
+---
 
 ### Other LinkedIn Learning Courses on Hadoop or Spark
 
