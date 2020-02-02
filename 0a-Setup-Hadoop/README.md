@@ -17,6 +17,7 @@ Can use the following options:
     - no GPUs in community edition
 - Cloudera QuickStart VM (7 GB download) or Docker Image
     - not recommended, too large, install errors for many people
+---
 
 For production Hadoop/Spark clusters:
 - Setup, pricing & monitoring for cloud
