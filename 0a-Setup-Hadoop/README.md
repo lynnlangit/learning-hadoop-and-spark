@@ -1,9 +1,9 @@
-# learning-hadoop
-Companion Repository to Learning Hadoop course on Linked In Learning
+# learning-hadoop-and-spark
+Companion Repository to `Learning Hadoop` course on Linked In Learning
 
 Course is here - https://www.lynda.com/Hadoop-tutorials/Hadoop-Fundamentals/191942-2.html
 
-Can use the following options:
+### Hadoop/Spark Learning Cluster Setup Info:
 - GCP Dataproc 
     - install Hadoop/Spark by default 
     - add Conda/Jupyter libraries (select `install components`)
@@ -19,7 +19,8 @@ Can use the following options:
     - not recommended, too large, install errors for many people
 ---
 
-For production Hadoop/Spark clusters:
+### For production Hadoop/Spark clusters:
+
 - Setup, pricing & monitoring for cloud
     - GCP Deployents or gcloud scripts
     - AWS Marketplace (uses AWS CloudFormation templates) or awscli scripts
