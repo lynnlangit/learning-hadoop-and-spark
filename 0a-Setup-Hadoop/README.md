@@ -7,9 +7,11 @@ Course is here - https://www.lynda.com/Hadoop-tutorials/Hadoop-Fundamentals/1919
 - GCP Dataproc 
     - install Hadoop/Spark by default 
     - add Conda/Jupyter libraries (select `install components`)
+    - includes Spark History WebUI
 - AWS EMR 
-    - select Spark install from 4 available configurations
-    - can create EMR Jupyter notebook
+    - select Spark install from 4 available EMR configurations
+    - can create EMR Jupyter notebook (alternative to SSH client)
+    - includes Spark History WebUI
 - Databricks Community Edition for AWS (also available for Azure)
     - select best fit Spark / Scala version
     - now Python3 only
