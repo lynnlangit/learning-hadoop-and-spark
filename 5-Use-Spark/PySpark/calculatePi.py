@@ -12,4 +12,4 @@ def sample(p):
 
 count = sc.parallelize(xrange(0, NUM_SAMPLES)).map(sample).reduce(lambda a, b: a + b)
 
-print "Pi is roughly %f" % (4.0 * count / NUM_SAMPLES)
+print ("Pi is roughly %f" % (4.0 * count / NUM_SAMPLES))
