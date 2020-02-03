@@ -1,5 +1,9 @@
 # Genomic Sample Data
 
+### Link to example genomic data files
+
+- Here are small, test example files in various genomic data formats (i.e. .bam, .vcf, .fasta, etc...) - [link](https://github.com/lynnlangit/gcp-for-bioinformatics/tree/master/1_Files_%26_Data/genomic-data-samples)
+
 ### To Test VariantSpark
 
 - Here's the [link](https://github.com/aehrc/VariantSpark/tree/master/data) to example data in the VariantSpark GitHub repo which can be used to run the example / sample named `HipsterIndex` for the VS library
