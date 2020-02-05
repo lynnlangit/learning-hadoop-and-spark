@@ -11,6 +11,9 @@ settings.json
 # BlueJ files
 *.ctxt
 
+# R
+.Rapp.history
+
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
