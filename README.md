@@ -4,7 +4,7 @@
 
 This is the companion repo to my LinkedIn Learning Courses on Hadoop and Spark.  
 1. **Learning Hadoop** - [link](https://www.lynda.com/Hadoop-tutorials/Hadoop-Fundamentals/191942-2.html)  
-2. **Cloud Hadoop: Scaling Apache Spark** - [link soon]
+2. **Cloud Hadoop: Scaling Apache Spark** - [link soon] - using GCP DataProc, AWS EMR or Databricks on AWS
 3. **Azure Databricks Spark Essential Training** - [link](https://www.linkedin.com/learning/azure-databricks-essential-training)
 
 ### DevEnv Setup Information
