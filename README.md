@@ -7,6 +7,8 @@ This is the companion repo to my LinkedIn Learning Courses on Hadoop and Spark.
 2. **Cloud Hadoop: Scaling Apache Spark** - [link](https://www.linkedin.com/learning/cloud-hadoop-scaling-apache-spark) - uses GCP DataProc, AWS EMR or Databricks on AWS
 3. **Azure Databricks Spark Essential Training** - [link](https://www.linkedin.com/learning/azure-databricks-essential-training) uses Azure with Databricks for scaling Apache Spark workloads
 
+---
+
 ### DevEnv Setup Information
 
 - Setup a Hadoop/Spark cloud-cluster on GCP DataProc or AWS EMR
@@ -16,7 +18,15 @@ This is the companion repo to my LinkedIn Learning Courses on Hadoop and Spark.
     - select your language (i.e. Python, Scala...)
 - Create a GCS bucket for input/output job data
     - see `example_datasets` folder in this Repo for sample data files
+- Use Databricks Community Edition (managed, hosted Apache Spark) - example shown below
+    - uses Databricks (Jupyter-style) notebooks to connect to a small, managed Spark cluster
+    - AWS or Azure editions - easier to try out on AWS
+    - Sign up for free trial - [link](https://databricks.com/try-databricks)
 
+
+
+---
+ 
 ### Example Jobs or Scripts
 
 **EXAMPLES** from `org.apache.hadoop_or_spark.examples` - link for [Spark examples](https://github.com/apache/spark/tree/master/examples/src/main/scala/org/apache/spark/examples)
