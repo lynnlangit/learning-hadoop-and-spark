@@ -23,7 +23,7 @@ This is the companion repo to my LinkedIn Learning Courses on Hadoop and Spark.
     - AWS or Azure editions - easier to try out on AWS
     - Sign up for free trial - [link](https://databricks.com/try-databricks)
 
-
+![Databricks Notebook](/images/word-count-databricks.png)
 
 ---
  
