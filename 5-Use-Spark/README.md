@@ -8,6 +8,12 @@ Original `Learning Hadoop` - [link to course](https://www.lynda.com/Hadoop-tutor
 
 ---
 
+## Apache Spark Architecture
+
+![Spark Arch](../images/spark-arch.png)
+
+---
+
 ## Sample code for Spark
 
 ### SELECT an example job:
