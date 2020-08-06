@@ -43,4 +43,4 @@ Original `Learning Hadoop` - [link to course](https://www.lynda.com/Hadoop-tutor
     - Databricks on AWS | Azure uses Databricks Notebooks
         - These notebooks have additional metadata (to Jupyter)
         - You can import/export PySpark files as Databricks Notebooks for interop
-        - Link additional example Databricks Spark Jupyter notebooks is [here](https://github.com/dennyglee/databricks)
+        - Link additional example Databricks Spark Jupyter notebooks is [here](https://github.com/dennyglee/databricks) or [here](https://databricks.com/resources?_sft_resource_type=example-notebook#databricks-jump-start)
