@@ -29,18 +29,20 @@ Original `Learning Hadoop` - [link to course](https://www.lynda.com/Hadoop-tutor
     - produces a word count list as output
     - output location is configurable as a job parameter
 
+---
+
 ### Use an execution language | environment:
-- Java
+- **Java**
     - Java file must be compiled to .jar files to run on the cluster
     - GCP Dataproc includes example .jar files on the VM image
-- Scala
+- **Scala**
     - Scala file must be compiled to .jar files to run on the cluster
     - GCP Dataproc includes example .jar files on the VM image
-- PySpark
+- **PySpark**
     - Note if you cluster is running Python2 or Python3 when running your script
-- Jupyter Notebooks
-    - AWS EMR | GCP Dataproc use standard Jupyter Notebooks
-    - Databricks on AWS | Azure uses Databricks Notebooks
-        - These notebooks have additional metadata (to Jupyter)
+- **Jupyter-style Notebooks**
+    - AWS EMR | GCP Dataproc use standard **Jupyter Notebooks**
+    - Databricks on AWS | Azure uses **Databricks Notebooks**
+        - These notebooks have additional, custom metadata (in addition to standard Jupyter metadata)
         - You can import/export PySpark files as Databricks Notebooks for interop
-        - Link additional example Databricks Spark Jupyter notebooks is [here](https://github.com/dennyglee/databricks) or [here](https://databricks.com/resources?_sft_resource_type=example-notebook#databricks-jump-start)
+        - Link to additional example of Databricks Spark Jupyter notebooks is [here](https://github.com/dennyglee/databricks) or [here](https://databricks.com/resources?_sft_resource_type=example-notebook#databricks-jump-start)
