@@ -1,7 +1,7 @@
 # learning-hadoop-and-spark
 Companion Repository to `Learning Hadoop` course on Linked In Learning
 
-Course is here - https://www.lynda.com/Hadoop-tutorials/Hadoop-Fundamentals/191942-2.html
+Course is here - https://www.lynda.com/Hadoop-tutorials/Learning-Hadoop-2020-Revision/2817067-2.html
 
 ### Hadoop/Spark Learning Cluster Setup Info:
 - GCP Dataproc - "partially-managed"
