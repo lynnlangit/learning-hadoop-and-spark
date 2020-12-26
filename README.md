@@ -11,14 +11,14 @@ This is the companion repo to my LinkedIn Learning Courses on Hadoop and Spark.
 
 ### DevEnv Setup Information
 
-- Setup a Hadoop/Spark cloud-cluster on GCP DataProc or AWS EMR
+You have a number of options - you can set up a local Hadoop/Spark cluster (not recommended, too complex) or a partially or fully-managed cluster.  For learning, I most often use a fully-managed (free tier) cluster.  
+
+- PARTIALLY-MANAGED - Setup a Hadoop/Spark cloud-cluster on **GCP DataProc** or **AWS EMR**
     - see `setup-hadoop` folder in this Repo for instructions/scripts
-- Setup a Hadoop/Spark dev environment 
-    - can use EclipseChe (on-line IDE), or local IDE
-    - select your language (i.e. Python, Scala...)
-- Create a GCS bucket for input/output job data
+    - create a GCS (or AWS) bucket for input/output job data
     - see `example_datasets` folder in this Repo for sample data files
-- Use Databricks Community Edition (managed, hosted Apache Spark) - example shown below
+    - for AWS EMR you can use EMR Studio (which includes managed Jupyter instances) - [link](https://aws.amazon.com/blogs/big-data/amazon-emr-studio-preview-a-new-notebook-first-ide-experience-with-amazon-emr/)
+- FULLY-MANAGED - Use **Databricks Community Edition** (managed, hosted Apache Spark) - example shown below
     - uses Databricks (Jupyter-style) notebooks to connect to a small, managed Spark cluster
     - AWS or Azure editions - easier to try out on AWS
     - Sign up for free trial - [link](https://databricks.com/try-databricks)
