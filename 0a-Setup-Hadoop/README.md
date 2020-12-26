@@ -4,15 +4,16 @@ Companion Repository to `Learning Hadoop` course on Linked In Learning
 Course is here - https://www.lynda.com/Hadoop-tutorials/Hadoop-Fundamentals/191942-2.html
 
 ### Hadoop/Spark Learning Cluster Setup Info:
-- GCP Dataproc 
+- GCP Dataproc - "partially-managed"
     - install Hadoop/Spark by default 
     - add Conda/Jupyter libraries (select `install components`)
     - includes Spark History WebUI
-- AWS EMR 
+- AWS EMR - "partially-managed"
     - select Spark install from 4 available EMR configurations
-    - can create EMR Jupyter notebook (alternative to SSH client)
+    - can create/use EMR Jupyter notebook (alternative to SSH client)
     - includes Spark History WebUI
-- Databricks Community Edition for AWS (also available for Azure)
+    - can use EMR Studio (includes Jupyter) - [link](https://aws.amazon.com/blogs/big-data/amazon-emr-studio-preview-a-new-notebook-first-ide-experience-with-amazon-emr/)
+- Databricks Community Edition for AWS (also available for Azure) - "fully-managed"
     - select best fit Spark / Scala version
     - now Python3 only
     - includes Databricks notebooks
