@@ -46,3 +46,9 @@ Original `Learning Hadoop` - [link to course](https://www.lynda.com/Hadoop-tutor
         - These notebooks have additional, custom metadata (in addition to standard Jupyter metadata)
         - You can import/export PySpark files as Databricks Notebooks for interop
         - Link to additional example of Databricks Spark Jupyter notebooks is [here](https://github.com/dennyglee/databricks) or [here](https://databricks.com/resources?_sft_resource_type=example-notebook#databricks-jump-start)
+ - **Koalas for Apache Spark**
+     - Implements the pandas DataFrame API on top of Apache Spark - [link](https://github.com/databricks/koalas)
+     - pandas is often used for single-node DataFrame implementations in Python
+     - Spark is usually used for big data processing. With koalas you can:
+         - Be immediately productive with Spark, with no learning curve, if you are already familiar with pandas.
+         - Have a single codebase that works both with pandas (tests, smaller datasets) and with Spark (distributed datasets).
