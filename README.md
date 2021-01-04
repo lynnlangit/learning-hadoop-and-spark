@@ -11,7 +11,7 @@ This is the companion repo to my LinkedIn Learning Courses on Hadoop and Spark.
 
 ### Development Environment Setup Information
 
-You have a number of options - you can set up a local Hadoop/Spark cluster (not recommended, too complex) or a partially or fully-managed cluster.  For learning, I most often use a fully-managed (free tier) cluster.  
+You have a number of options - although it is possible for you to set up a local Hadoop/Spark cluster, I do NOT recommended this approach as it's needlessly complex for initial study.  Rather I do recommend that you use a partially or fully-managed cluster.  For learning, I most often use a **fully-managed (free tier) cluster**.  
 
 - PARTIALLY-MANAGED - Setup a Hadoop/Spark cloud-cluster on **GCP DataProc** or **AWS EMR**
     - see `setup-hadoop` folder in this Repo for instructions/scripts
