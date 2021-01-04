@@ -20,8 +20,8 @@ You have a number of options - you can set up a local Hadoop/Spark cluster (not 
     - for AWS EMR you can use EMR Studio (which includes managed Jupyter instances) - [link](https://aws.amazon.com/blogs/big-data/amazon-emr-studio-preview-a-new-notebook-first-ide-experience-with-amazon-emr/)
 - FULLY-MANAGED - Use **Databricks Community Edition** (managed, hosted Apache Spark) - example shown below
     - uses Databricks (Jupyter-style) notebooks to connect to a small, managed Spark cluster
-    - AWS or Azure editions - easier to try out on AWS
-    - Sign up for free trial - [link](https://databricks.com/try-databricks)
+    - AWS or Azure editions - TIP: it's simpler to try out on AWS free tier, Azure may require a pay-as-you-go account to get needed CPU/GPU resources
+    - Sign up for free trial of Databricks/AWS - [link](https://databricks.com/try-databricks)
 
 ![Databricks Notebook](/images/word-count-databricks.png)
 
