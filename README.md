@@ -9,7 +9,7 @@ This is the companion repo to my LinkedIn Learning Courses on Hadoop and Spark.
 
 ---
 
-### DevEnv Setup Information
+### Development Environment Setup Information
 
 You have a number of options - you can set up a local Hadoop/Spark cluster (not recommended, too complex) or a partially or fully-managed cluster.  For learning, I most often use a fully-managed (free tier) cluster.  
 
