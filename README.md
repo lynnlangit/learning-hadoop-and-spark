@@ -17,10 +17,11 @@ You have a number of options - although it is possible for you to set up a local
 
 <img src="https://github.com/lynnlangit/learning-hadoop-and-spark/blob/master/images/word-count-databricks.png" width=600 align=left>
     
-- **1. FULLY-MANAGED** - Use Databricks Community Edition (managed, hosted Apache Spark) - example screenshot shown to the left
+- **1. FULLY-MANAGED** - Use Databricks Community Edition (managed, hosted Apache Spark) 
+    - example screenshot shown to the left
     - use **Databrick AWS community** edition (simplest set up - free tier on AWS) - [link](https://databricks.com/try-databricks) --OR--
     - use **Databrick Azure trial** edition 
-        - TIP: it's simpler to try out on AWS free tier, Azure may require a pay-as-you-go account to get needed CPU/GPU resources
+    - TIP: it's simpler to try out on AWS free tier, Azure may require a pay-as-you-go account to get needed CPU/GPU resources
     - uses Databricks (Jupyter-style) notebooks to connect to a small, managed Spark cluster
     - creates and manages your data file buckets as part of Databricks service (on either AWS S3 or Azure Blob store)
 
@@ -35,7 +36,7 @@ You have a number of options - although it is possible for you to set up a local
     - for **GCP use DataProc** w/ Jupyter notebook interface --OR--
     - for **AWS use EMR** you can use EMR Studio (which includes managed Jupyter instances) - [link](https://aws.amazon.com/blogs/big-data/amazon-emr-studio-preview-a-new-notebook-first-ide-experience-with-amazon-emr/) example screenshot shown below
     
-<img src="https://github.com/lynnlangit/learning-hadoop-and-spark/blob/master/images/emr-studio.png" width=800 align=right>
+<img src="https://github.com/lynnlangit/learning-hadoop-and-spark/blob/master/images/emr-studio.png" width=600 align=left>
     
 - **3. MANUAL** - Setup Hadoop/Spark locally or on a 'raw' cloud VM, such as AWS EC2
     - NOT RECOMMENDED for learning - too complex to set up
