@@ -1,6 +1,6 @@
 # Learning Hadoop and Spark
 
-### Contents
+## Contents
 
 This is the companion repo to my LinkedIn Learning Courses on Hadoop and Spark.  
 1. **Learning Hadoop** - [link](https://www.linkedin.com/learning/learning-hadoop-2) uses mostly GCP Dataproc for running Hadoop and associated libraries (i.e. Hive, Pig, Spark...) workloads
@@ -9,7 +9,7 @@ This is the companion repo to my LinkedIn Learning Courses on Hadoop and Spark.
 
 ---
 
-### Development Environment Setup Information
+## Development Environment Setup Information
 
 You have a number of options - although it is possible for you to set up a local Hadoop/Spark cluster, I do NOT recommended this approach as it's needlessly complex for initial study.  Rather I do recommend that you use a partially or fully-managed cluster.  For learning, I most often use a **fully-managed (free tier) cluster**.  
     
@@ -36,7 +36,7 @@ You have a number of options - although it is possible for you to set up a local
 
 ---
  
-### Example Jobs or Scripts
+## Example Jobs or Scripts
 
 **EXAMPLES** from `org.apache.hadoop_or_spark.examples` - link for [Spark examples](https://github.com/apache/spark/tree/master/examples/src/main/scala/org/apache/spark/examples)
 
@@ -47,7 +47,7 @@ You have a number of options - although it is possible for you to set up a local
     - login is user:`demo`, pwd:`demo`
 ---
 
-### Other LinkedIn Learning Courses on Hadoop or Spark
+## Other LinkedIn Learning Courses on Hadoop or Spark
 
 There are ~ 10 courses on Hadoop/Spark topics on LinkedIn Learning.  See graphic below  
 ![Learning Paths](https://github.com/lynnlangit/learning-hadoop-and-spark/blob/master/images/path.png)
