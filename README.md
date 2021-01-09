@@ -15,10 +15,10 @@ You have a number of options - although it is possible for you to set up a local
 
 ### SaaS - Databricks on AWS (or Azure)
 
-<img src="https://github.com/lynnlangit/learning-hadoop-and-spark/blob/master/images/word-count-databricks.png" width=600 align=left>
+<img src="https://github.com/lynnlangit/learning-hadoop-and-spark/blob/master/images/word-count-databricks.png" width=600>
     
 - **1. FULLY-MANAGED** - Use Databricks Community Edition (managed, hosted Apache Spark) 
-    - example screenshot shown to the left
+    - example screenshot shown above
     - use **Databrick AWS community** edition (simplest set up - free tier on AWS) - [link](https://databricks.com/try-databricks) --OR--
     - use **Databrick Azure trial** edition 
     - TIP: it's simpler to try out on AWS free tier, Azure may require a pay-as-you-go account to get needed CPU/GPU resources
@@ -29,14 +29,14 @@ You have a number of options - although it is possible for you to set up a local
 
 ### PaaS Cloud
 
-<img src="https://github.com/lynnlangit/learning-hadoop-and-spark/blob/master/images/emr-studio.png" width=600 align=left>
+<img src="https://github.com/lynnlangit/learning-hadoop-and-spark/blob/master/images/emr-studio.png" width=600>
 
 - **2. PARTIALLY-MANAGED** - Setup a Hadoop/Spark managed cloud-cluster on GCP or AWS
     - see `setup-hadoop` folder in this Repo for instructions/scripts
         - create a GCS (or AWS) **bucket** for input/output job data
         - see `example_datasets` folder in this Repo for sample data files
     - for **GCP use DataProc** w/ Jupyter notebook interface --OR--
-    - for **AWS use EMR** you can use EMR Studio (which includes managed Jupyter instances) - [link](https://aws.amazon.com/blogs/big-data/amazon-emr-studio-preview-a-new-notebook-first-ide-experience-with-amazon-emr/) example screenshot shown below
+    - for **AWS use EMR** you can use EMR Studio (which includes managed Jupyter instances) - [link](https://aws.amazon.com/blogs/big-data/amazon-emr-studio-preview-a-new-notebook-first-ide-experience-with-amazon-emr/) example screenshot shown above
     
 
 
