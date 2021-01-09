@@ -26,7 +26,9 @@ You have a number of options - although it is possible for you to set up a local
         - create a GCS (or AWS) **bucket** for input/output job data
         - see `example_datasets` folder in this Repo for sample data files
     - for **GCP use DataProc** w/ Jupyter notebook interface --OR--
-    - for **AWS use EMR** you can use EMR Studio (which includes managed Jupyter instances) - [link](https://aws.amazon.com/blogs/big-data/amazon-emr-studio-preview-a-new-notebook-first-ide-experience-with-amazon-emr/)
+    - for **AWS use EMR** you can use EMR Studio (which includes managed Jupyter instances) - [link](https://aws.amazon.com/blogs/big-data/amazon-emr-studio-preview-a-new-notebook-first-ide-experience-with-amazon-emr/) example screenshot shown below
+    
+<img src="https://github.com/lynnlangit/learning-hadoop-and-spark/blob/master/images/emr-studio.png" width=800>
     
 - **3. MANUAL** - Setup Hadoop/Spark locally or on a 'raw' cloud VM, such as AWS EC2
     - NOT RECOMMENDED for learning - too complex to set up
