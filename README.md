@@ -27,7 +27,7 @@ You have a number of options - although it is possible for you to set up a local
 
 ---
 
-### PaaS Cloud
+### PaaS Cloud on GCP (or AWS)
 
 <img src="https://github.com/lynnlangit/learning-hadoop-and-spark/blob/master/images/emr-studio.png" width=600>
 
@@ -35,8 +35,9 @@ You have a number of options - although it is possible for you to set up a local
     - see `setup-hadoop` folder in this Repo for instructions/scripts
         - create a GCS (or AWS) **bucket** for input/output job data
         - see `example_datasets` folder in this Repo for sample data files
-    - for **GCP use DataProc** w/ Jupyter notebook interface --OR--
+    - for **GCP use DataProc** includes Jupyter notebook interface --OR--
     - for **AWS use EMR** you can use EMR Studio (which includes managed Jupyter instances) - [link](https://aws.amazon.com/blogs/big-data/amazon-emr-studio-preview-a-new-notebook-first-ide-experience-with-amazon-emr/) example screenshot shown above
+    - for Azure it is possible to use their HDInsight service.  I prefer Databricks on Azure because I find it to be more feature complete and performant. 
     
 
 
