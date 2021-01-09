@@ -13,7 +13,7 @@ This is the companion repo to my LinkedIn Learning Courses on Hadoop and Spark.
 
 You have a number of options - although it is possible for you to set up a local Hadoop/Spark cluster, I do NOT recommended this approach as it's needlessly complex for initial study.  Rather I do recommend that you use a partially or fully-managed cluster.  For learning, I most often use a **fully-managed (free tier) cluster**.  
     
-- **FULLY-MANAGED** - Use Databricks Community Edition (managed, hosted Apache Spark) - example screenshot shown below
+- **1. FULLY-MANAGED** - Use Databricks Community Edition (managed, hosted Apache Spark) - example screenshot shown below
     - use **Databrick AWS community** edition (simplest set up - free tier on AWS) - [link](https://databricks.com/try-databricks) --or--
     - use **Databrick Azure trial** edition - TIP: it's simpler to try out on AWS free tier, Azure may require a pay-as-you-go account to get needed CPU/GPU resources
     - uses Databricks (Jupyter-style) notebooks to connect to a small, managed Spark cluster
@@ -21,14 +21,14 @@ You have a number of options - although it is possible for you to set up a local
     
 <img src="https://github.com/lynnlangit/learning-hadoop-and-spark/blob/master/images/word-count-databricks.png" width=600>
 
-- **PARTIALLY-MANAGED** - Setup a Hadoop/Spark managed cloud-cluster on GCP or AWS
+- **2. PARTIALLY-MANAGED** - Setup a Hadoop/Spark managed cloud-cluster on GCP or AWS
     - see `setup-hadoop` folder in this Repo for instructions/scripts
         - create a GCS (or AWS) **bucket** for input/output job data
         - see `example_datasets` folder in this Repo for sample data files
     - for **GCP use DataProc** w/ Jupyter notebook interface --OR--
     - for **AWS use EMR** you can use EMR Studio (which includes managed Jupyter instances) - [link](https://aws.amazon.com/blogs/big-data/amazon-emr-studio-preview-a-new-notebook-first-ide-experience-with-amazon-emr/)
     
-- **MANUAL** - Setup Hadoop/Spark locally or on a 'raw' cloud VM, such as AWS EC2
+- **3. MANUAL** - Setup Hadoop/Spark locally or on a 'raw' cloud VM, such as AWS EC2
     - NOT RECOMMENDED for learning - too complex to set up
     - Cloudera Learning VM - also NOT recommended, changes too often, documentation not aligned
 
