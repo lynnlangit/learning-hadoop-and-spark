@@ -19,7 +19,7 @@ You have a number of options - although it is possible for you to set up a local
     - uses Databricks (Jupyter-style) notebooks to connect to a small, managed Spark cluster
     - creates and manages your data file buckets as part of Databricks service (on either AWS S3 or Azure Blob store)
     
-<img src="https://github.com/lynnlangit/learning-hadoop-and-spark/blob/master/images/word-count-databricks.png" width=800>
+<img src="https://github.com/lynnlangit/learning-hadoop-and-spark/blob/master/images/word-count-databricks.png" width=600>
 
 - **PARTIALLY-MANAGED** - Setup a Hadoop/Spark managed cloud-cluster on GCP or AWS
     - see `setup-hadoop` folder in this Repo for instructions/scripts
