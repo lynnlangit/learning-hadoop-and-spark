@@ -22,28 +22,27 @@ This is the companion repo to my LinkedIn Learning Courses on Apache Hadoop and 
 
 You have a number of options - although it is possible for you to set up a local Hadoop/Spark cluster, I do NOT recommended this approach as it's needlessly complex for initial study.  Rather I do recommend that you use a partially or fully-managed cluster.  For learning, I most often use a **fully-managed (free tier) cluster**.  
 
-### SaaS - Databricks 
+### 1. SaaS - Databricks --> MANAGED
 
 Databricks offers managed Apache Spark clusters.  Databricks can run on AWS, Azure or GCP --> announced in 20201 - [link](https://cloud.google.com/databricks).
 In this course, I use Databricks running on AWS, as the community editor is simple and fast to set up for learning purposes.
 
 <img src="https://github.com/lynnlangit/learning-hadoop-and-spark/blob/master/images/word-count-databricks.png" width=600>
     
-- **1. FULLY-MANAGED** - Use Databricks Community Edition (managed, hosted Apache Spark) 
-    - example screenshot shown above
+- Use **Databricks Community Edition** (managed, hosted Apache Spark), run on AWS.  Example notebook shown in screenshot above.
+    - uses Databricks (Jupyter-style) notebooks to connect to a one or more custom-sized and managed Spark clusters
+    - creates and manages your data files stored in cloud buckets as part of Databricks service 
+    - uses DFS file system in cluster data operations
     - use **Databrick AWS community** edition (simplest set up - free tier on AWS) - [link](https://databricks.com/try-databricks) --OR--
-    - use **Databrick Azure trial** edition 
-        - TIP: it's simpler to try out on AWS free tier, Azure may require a pay-as-you-go account to get needed CPU/GPU resources
-        - uses Databricks (Jupyter-style) notebooks to connect to a small, managed Spark cluster
-        - creates and manages your data file buckets as part of Databricks service (on either AWS S3 or Azure Blob store)
-
+    - use **Databrick Azure trial** edition - Azure may require a pay-as-you-go account to get needed CPU/GPU resources
+    
 ---
 
-### PaaS Cloud on GCP (or AWS)
+### 2. PaaS Cloud on GCP (or AWS) --> PARTIALLY-MANAGED
 
 <img src="https://github.com/lynnlangit/learning-hadoop-and-spark/blob/master/images/emr-studio.png" width=600>
 
-- **2. PARTIALLY-MANAGED** - Setup a Hadoop/Spark managed cloud-cluster on GCP or AWS
+- Setup a Hadoop/Spark managed cloud-cluster via **GCP Dataproc or AWS EMR**
     - see `setup-hadoop` folder in this Repo for instructions/scripts
         - create a GCS (or AWS) **bucket** for input/output job data
         - see `example_datasets` folder in this Repo for sample data files
@@ -52,12 +51,11 @@ In this course, I use Databricks running on AWS, as the community editor is simp
     - for Azure it is possible to use their HDInsight service.  I prefer Databricks on Azure because I find it to be more feature complete and performant. 
     
 
-
 ---
 
-### IaaS local or cloud
+### 3. IaaS local or cloud --> MANUAL
     
-- **3. MANUAL** - Setup Hadoop/Spark locally or on a 'raw' cloud VM, such as AWS EC2
+- Setup Hadoop/Spark locally or on a 'raw' cloud VM, such as **AWS EC2**
     - NOT RECOMMENDED for learning - too complex to set up
     - Cloudera Learning VM - also NOT recommended, changes too often, documentation not aligned
 
