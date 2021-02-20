@@ -22,7 +22,10 @@ This is the companion repo to my LinkedIn Learning Courses on Apache Hadoop and 
 
 You have a number of options - although it is possible for you to set up a local Hadoop/Spark cluster, I do NOT recommended this approach as it's needlessly complex for initial study.  Rather I do recommend that you use a partially or fully-managed cluster.  For learning, I most often use a **fully-managed (free tier) cluster**.  
 
-### SaaS - Databricks on AWS (or Azure)
+### SaaS - Databricks 
+
+Databricks offers managed Apache Spark clusters.  Databricks can run on AWS, Azure or GCP --> announced in 20201 - [link](https://cloud.google.com/databricks).
+In this course, I use Databricks running on AWS, as the community editor is simple and fast to set up for learning purposes.
 
 <img src="https://github.com/lynnlangit/learning-hadoop-and-spark/blob/master/images/word-count-databricks.png" width=600>
     
@@ -30,9 +33,9 @@ You have a number of options - although it is possible for you to set up a local
     - example screenshot shown above
     - use **Databrick AWS community** edition (simplest set up - free tier on AWS) - [link](https://databricks.com/try-databricks) --OR--
     - use **Databrick Azure trial** edition 
-    - TIP: it's simpler to try out on AWS free tier, Azure may require a pay-as-you-go account to get needed CPU/GPU resources
-    - uses Databricks (Jupyter-style) notebooks to connect to a small, managed Spark cluster
-    - creates and manages your data file buckets as part of Databricks service (on either AWS S3 or Azure Blob store)
+        - TIP: it's simpler to try out on AWS free tier, Azure may require a pay-as-you-go account to get needed CPU/GPU resources
+        - uses Databricks (Jupyter-style) notebooks to connect to a small, managed Spark cluster
+        - creates and manages your data file buckets as part of Databricks service (on either AWS S3 or Azure Blob store)
 
 ---
 
