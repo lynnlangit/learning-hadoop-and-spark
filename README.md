@@ -33,8 +33,9 @@ In this course, I use Databricks running on AWS, as the community editor is simp
     - uses Databricks (Jupyter-style) notebooks to connect to a one or more custom-sized and managed Spark clusters
     - creates and manages your data files stored in cloud buckets as part of Databricks service 
     - uses DFS file system in cluster data operations
-    - use **Databrick AWS community** edition (simplest set up - free tier on AWS) - [link](https://databricks.com/try-databricks) --OR--
-    - use **Databrick Azure trial** edition - Azure may require a pay-as-you-go account to get needed CPU/GPU resources
+    - use **Databricks AWS community** edition (simplest set up - free tier on AWS) - [link](https://databricks.com/try-databricks) --OR--
+    - use **Databricks Azure trial** edition - Azure may require a pay-as-you-go account to get needed CPU/GPU resources
+    - try **Databricks on GCP beta** - announced recently - [link](https://cloud.google.com/databricks)
     
 ---
 
