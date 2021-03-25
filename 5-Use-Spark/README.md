@@ -10,6 +10,8 @@ Original `Learning Hadoop` - [link to course](https://www.lynda.com/Hadoop-tutor
 
 ## Apache Spark Architecture
 
+Compare Apache Spark to Databricks - https://databricks.com/spark/comparing-databricks-to-apache-spark  
+
 ![Spark Arch](../images/spark-arch.png)
 
 ---
