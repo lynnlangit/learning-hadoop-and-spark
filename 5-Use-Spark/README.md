@@ -42,6 +42,7 @@ Compare Apache Spark to Databricks - https://databricks.com/spark/comparing-data
     - GCP Dataproc includes example .jar files on the VM image
 - **PySpark**
     - Note if you cluster is running Python2 or Python3 when running your script
+    - Integrated into GCP BigQuery interface (use PySpark) - [link](https://cloud.google.com/blog/products/data-analytics/spark-jobs-that-autoscale-and-made-seamless-for-all-data-users)
 - **Jupyter-style Notebooks**
     - AWS EMR | GCP Dataproc use standard **Jupyter Notebooks**
     - Databricks on AWS | Azure uses **Databricks Notebooks**
