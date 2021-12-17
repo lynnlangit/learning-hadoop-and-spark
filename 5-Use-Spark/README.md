@@ -55,3 +55,5 @@ Compare Apache Spark to Databricks - https://databricks.com/spark/comparing-data
      - Spark is usually used for big data processing. With koalas you can:
          - Be immediately productive with Spark, with no learning curve, if you are already familiar with pandas.
          - Have a single codebase that works both with pandas (tests, smaller datasets) and with Spark (distributed datasets).
+ - **Spark on Kubernetes (K8)**
+    - 3 part series on Dev.to on using PySpark with K8 - [link](https://dev.to/psclgllt/series/12135)
