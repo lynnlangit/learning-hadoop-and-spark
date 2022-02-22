@@ -1,6 +1,6 @@
 # learning-hadoop-and-spark
 
-Companion Repository to Linked In Learning Courses
+Companion Repository to Linked In Learning Courses. See folder `notebooks` for examples.
 - Learning Hadoop
 - Scaling Cloud Spark  
 
