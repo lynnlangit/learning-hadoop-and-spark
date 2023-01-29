@@ -29,5 +29,5 @@ Course is here - https://www.lynda.com/Hadoop-tutorials/Learning-Hadoop-2020-Rev
     - AWS Marketplace (uses AWS CloudFormation templates) or awscli scripts
     - Terraform Templates (multiple cloud vendors)
 - Right-sizing in cloud and cost savings
-    - GCP Preemptible Instances
+    - GCP Preemptible (or Spot) Instances
     - AWS Spot or AWS Batch
