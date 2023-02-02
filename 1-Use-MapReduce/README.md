@@ -14,40 +14,40 @@ How to...from [link](https://hadoop.apache.org/docs/r3.0.0/hadoop-mapreduce-clie
 
 #### Path Variables
 
-export JAVA_HOME=/usr/java/default
-export PATH=${JAVA_HOME}/bin:${PATH}
-export HADOOP_CLASSPATH=${JAVA_HOME}/lib/tools.jar
+export JAVA_HOME=/usr/java/default  
+export PATH=${JAVA_HOME}/bin:${PATH}  
+export HADOOP_CLASSPATH=${JAVA_HOME}/lib/tools.jar  
 
 #### Compile it
 
-`bin/hadoop com.sun.tools.javac.Main WordCount.java`
+`bin/hadoop com.sun.tools.javac.Main WordCount.java`  
 `jar cf wc.jar WordCount*.class`
 
 #### Run it
 
 Assuming that:
 
-/user/joe/wordcount/input - input directory in HDFS
-/user/joe/wordcount/output - output directory in HDFS
+/user/joe/wordcount/input - input directory in HDFS  
+/user/joe/wordcount/output - output directory in HDFS  
 Sample text-files as input:
 
-`bin/hadoop fs -ls /user/joe/wordcount/input/`
-/user/joe/wordcount/input/file01
-/user/joe/wordcount/input/file02
+`bin/hadoop fs -ls /user/joe/wordcount/input/`  
+/user/joe/wordcount/input/file01  
+/user/joe/wordcount/input/file02  
 
-`bin/hadoop fs -cat /user/joe/wordcount/input/file01`
+`bin/hadoop fs -cat /user/joe/wordcount/input/file01`  
 Hello World Bye World
 
-`bin/hadoop fs -cat /user/joe/wordcount/input/file02`
+`bin/hadoop fs -cat /user/joe/wordcount/input/file02`  
 Hello Hadoop Goodbye Hadoop
 
 ##### Run the application:
 
-`bin/hadoop jar wc.jar WordCount /user/joe/wordcount/input /user/joe/wordcount/output`
+`bin/hadoop jar wc.jar WordCount /user/joe/wordcount/input /user/joe/wordcount/output`  
 
-`bin/hadoop fs -cat /user/joe/wordcount/output/part-r-00000`
-Bye 1
-Goodbye 1
-Hadoop 2
+`bin/hadoop fs -cat /user/joe/wordcount/output/part-r-00000`  
+Bye 1  
+Goodbye 1  
+Hadoop 2  
 Hello 2
 World 2
