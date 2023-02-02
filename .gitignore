@@ -30,3 +30,4 @@ settings.json
 hs_err_pid*
 *.db
 .metals/metals.mv.db
+.metals/metals.mv.db
