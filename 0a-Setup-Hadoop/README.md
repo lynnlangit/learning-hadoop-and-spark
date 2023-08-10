@@ -3,7 +3,15 @@ Companion Repository to `Learning Hadoop` course on Linked In Learning
 
 Course is here - https://www.lynda.com/Hadoop-tutorials/Learning-Hadoop-2020-Revision/2817067-2.html
 
-### Hadoop/Spark Learning Cluster Setup Info:
+### Hadoop/Spark Learning Cloud Cluster Setup Info:
+
+General cloud Hadoop cluster setup considerations include at which level you'd like to interact with your cluster resources.  Most modern cloud vendors include three options:
+- IaaS - use **managed VMs**, i.e. GCE for GCP, EC2 for AWS...
+- PaaS - use **Kubernetes**, i.e. GKE for GCP, EKS for AWS...
+- SaaS - use **Serverless** endpoints, i.e. Serverless Sessions for GCP, Job Runs for AWS...
+
+More detail for each cloud vendor setup listed below.  
+
 - **GCP Dataproc** - "partially-managed"
     - install Hadoop/Spark by default 
     - add Conda/Jupyter libraries (select `install components`)
