@@ -24,6 +24,8 @@ This is the companion repo to my Linked In Learning Courses on Apache Hadoop and
 There are ~ 10 courses on Hadoop/Spark topics on LinkedIn Learning.  See graphic below  
 ![Learning Paths](https://github.com/lynnlangit/learning-hadoop-and-spark/blob/master/images/path.png)
 
+*****NOTE: I am fully revising my core 'Learning Hadoop' course in 2024.  New course will include cloud updates.****
+
 - **Hadoop** for Data Science Tips and Tricks - [link](https://www.linkedin.com/learning/hadoop-for-data-science-tips-tricks-techniques)
     - Set up Cloudera Enviroment
     - Working with Files in HDFS
