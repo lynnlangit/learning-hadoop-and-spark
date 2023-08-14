@@ -11,7 +11,9 @@ General cloud Hadoop cluster setup considerations include at which level you'd l
 - PaaS - use **Kubernetes**, i.e. GKE for GCP, EKS for AWS...
 - SaaS - use **Serverless**, i.e. [Serverless Sessions](https://cloud.google.com/vertex-ai/docs/workbench/managed/serverless-spark) for GCP, [Job Runs](https://docs.aws.amazon.com/emr/latest/EMR-Serverless-UserGuide/emr-serverless.html) for AWS...
 
-More detail for each cloud vendor setup listed below.  
+---
+
+More detail for each cloud vendor setup listed below.  Even more detail on my 'advanced setup notes page' - [link](xx)
 
 - **GCP Dataproc** - "partially-managed"
     - install Hadoop/Spark by default 
