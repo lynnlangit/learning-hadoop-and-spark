@@ -33,12 +33,4 @@ More detail for each cloud vendor setup listed below.  Even more detail on my 'a
     - not recommended, too large, install errors for many people
 ---
 
-### For production Hadoop/Spark clusters:
 
-- Setup, pricing & monitoring for cloud
-    - GCP Deployents or gcloud scripts
-    - AWS Marketplace (uses AWS CloudFormation templates) or awscli scripts
-    - Terraform Templates (multiple cloud vendors)
-- Right-sizing in cloud and cost savings
-    - GCP Preemptible (or Spot) Instances
-    - AWS Spot or AWS Batch
