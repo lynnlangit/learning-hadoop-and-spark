@@ -13,7 +13,8 @@ General cloud Hadoop cluster setup considerations include at which level you'd l
 
 ---
 
-More detail for each cloud vendor setup listed below.  Even more detail on my 'advanced setup notes page' - [link](xx)
+More detail for each cloud vendor setup listed below.   
+Even more detail on my 'advanced setup notes page' - [link](https://github.com/lynnlangit/learning-hadoop-and-spark/blob/master/0a-Setup-Hadoop/adv-setup.md)
 
 - **GCP Dataproc** - "partially-managed"
     - install Hadoop/Spark by default 
