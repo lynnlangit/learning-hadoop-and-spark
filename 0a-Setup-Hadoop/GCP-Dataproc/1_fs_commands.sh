@@ -23,7 +23,7 @@ hadoop version
 
 # create a directory in HDFS
 # REMINDER: HDFS files are immutable
-hadoop fs -mkdir demo-hadoop
+hadoop fs -mkdir ./demo-hadoop
 
 # upload a file to a HDFS directory
 # hadoop fs put --from source_path_and_file --to dest_path_and_file
