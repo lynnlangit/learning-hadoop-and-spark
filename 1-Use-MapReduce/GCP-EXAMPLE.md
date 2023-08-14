@@ -14,7 +14,7 @@
     - are positional `<in>`, `<out>`
     - create bucket in same project, upload data file
     - `gs://hadoop-course/shakespeare.raw`
-    - `gs://hadoop-course/output`
+    - `gs://hadoop-course/output` - this CREATES the output directory, the directory should NOT exist in advance
  - NOTES
     - example includes other samples
     - source code for example jar at ...`<GitHub>`
