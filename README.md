@@ -4,7 +4,7 @@
 
 This is the companion repo to my Linked In Learning Courses on Apache Hadoop and Apache Spark.  
 
-*****NOTE: I am fully revising my core 'Learning Hadoop' course in 2024.  New course will include cloud updates.****
+⭐⭐⭐ NOTE: I am fully revising my core 'Learning Hadoop' course in 2024.  New course will include cloud updates. ⭐⭐⭐
 
 🐘  **1. Learning Hadoop** - [link](https://www.linkedin.com/learning/learning-hadoop-2)   
     - this course demos I use mostly GCP Dataproc   
