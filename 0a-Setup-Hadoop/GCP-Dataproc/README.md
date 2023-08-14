@@ -1,8 +1,8 @@
-# Verify Dataproc Setup
+# Verify Dataproc VM Setup
 
-1. Setup a cluster
-2. Run a job
-3. Verify success
+1. Setup a cluster using GCE VMs
+2. Setup and Run a test Spark job
+3. Verify job run success in the web ui
 
 ----
 
