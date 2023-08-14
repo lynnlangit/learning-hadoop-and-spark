@@ -4,6 +4,8 @@
 
 This is the companion repo to my Linked In Learning Courses on Apache Hadoop and Apache Spark.  
 
+*****NOTE: I am fully revising my core 'Learning Hadoop' course in 2024.  New course will include cloud updates.****
+
 🐘  **1. Learning Hadoop** - [link](https://www.linkedin.com/learning/learning-hadoop-2)   
     - this course demos I use mostly GCP Dataproc   
     - for running Hadoop & associated libraries (i.e. Hive, Pig, Spark...) workloads    
@@ -23,8 +25,6 @@ This is the companion repo to my Linked In Learning Courses on Apache Hadoop and
 
 There are ~ 10 courses on Hadoop/Spark topics on LinkedIn Learning.  See graphic below  
 ![Learning Paths](https://github.com/lynnlangit/learning-hadoop-and-spark/blob/master/images/path.png)
-
-*****NOTE: I am fully revising my core 'Learning Hadoop' course in 2024.  New course will include cloud updates.****
 
 - **Hadoop** for Data Science Tips and Tricks - [link](https://www.linkedin.com/learning/hadoop-for-data-science-tips-tricks-techniques)
     - Set up Cloudera Enviroment
