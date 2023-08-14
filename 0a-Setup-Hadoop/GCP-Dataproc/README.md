@@ -8,8 +8,8 @@
 
 ## Simple CalcPi Job
 
-Use included samples
+Use included sample files on default Dataproc VM image
  - create new Job
- - fill in class: `org.apache.spark.examples.SparkPi`
- - fill in path to JAR: `file:///usr/lib/spark/examples/jars/spark-examples.jar`
- - fill in arguments: `1000`
+   - fill in class: `org.apache.spark.examples.SparkPi`
+   - fill in path to JAR: `file:///usr/lib/spark/examples/jars/spark-examples.jar`
+   - fill in arguments: `1000`
