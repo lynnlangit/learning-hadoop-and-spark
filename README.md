@@ -2,30 +2,30 @@
 
 ## Contents
 
-This is the companion repo to my LinkedIn Learning Courses on Apache Hadoop and Apache Spark.  
+This is the companion repo to my Linked In Learning Courses on Apache Hadoop and Apache Spark.  
 
 🐘  **1. Learning Hadoop** - [link](https://www.linkedin.com/learning/learning-hadoop-2)   
-    - uses mostly GCP Dataproc   
+    - this course demos I use mostly GCP Dataproc   
     - for running Hadoop & associated libraries (i.e. Hive, Pig, Spark...) workloads    
     
 🌩️  **2. Cloud Hadoop: Scaling Apache Spark** - [link](https://www.linkedin.com/learning/cloud-hadoop-scaling-apache-spark)   
-    - uses GCP DataProc, AWS EMR --or--   
-    - Databricks on AWS  
+    - this course demos I use GCP DataProc, AWS EMR --or--   
+    - I use Databricks on AWS or on GCP
     
 ⛈️  **3. Azure Databricks Spark Essential Training** - [link](https://www.linkedin.com/learning/azure-databricks-essential-training)  
-    - uses Azure with Databricks  
+    - this course demos I use Azure with Databricks  
     - for scaling Apache Spark workloads  
 
 ---
 
 ## Development Environment Setup Information
 
-You have a number of options - although it is possible for you to set up a local Hadoop/Spark cluster, I do NOT recommended this approach as it's needlessly complex for initial study.  Rather I do recommend that you use a partially or fully-managed cluster.  For learning, I most often use a **fully-managed (free tier) cluster**.  
+You have a number of options - although it is possible for you to set up a local Hadoop/Spark cluster, I do NOT recommended this approach as it's needlessly complex for initial study.  Rather I do recommend that you use a partially or fully-managed cluster.  For learning, I most often use a **fully-managed (free tier) cluster**.  Also, I usually use a single-node cluster to start.
 
 ### 1. SaaS - Databricks --> MANAGED
 
 Databricks offers managed Apache Spark clusters.  Databricks can run on AWS, Azure or GCP --> announced in 2021 - [link](https://cloud.google.com/databricks).
-In this course, I use Databricks running on AWS, as the community editor is simple and fast to set up for learning purposes.
+In my 'Scaling Cloud Spark' course, I use Databricks running on AWS, as the community editor is simple and fast to set up for learning purposes.
 
 <img src="https://github.com/lynnlangit/learning-hadoop-and-spark/blob/master/images/word-count-databricks.png" width=600>
     
