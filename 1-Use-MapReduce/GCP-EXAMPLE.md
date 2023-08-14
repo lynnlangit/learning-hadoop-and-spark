@@ -9,7 +9,7 @@
  - JAR file with examples
     - examples included with base image
     - verify version of jar file
-    - `file:///usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples-2.9.2.jar ` 
+    - `file:///usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar ` 
  - ARGS 
     - are positional `<in>`, `<out>`
     - create bucket in same project, upload data file
