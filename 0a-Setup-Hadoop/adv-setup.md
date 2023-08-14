@@ -1,6 +1,6 @@
 # Advanced Cloud Hadoop / Spark Setup
 
-## Development Environment Setup Information
+## Setup LEARNING Hadoop Cluster
 
 You have a number of options - although it is possible for you to set up a local Hadoop/Spark cluster, I do NOT recommended this approach as it's needlessly complex for initial study.  Rather I do recommend that you use a partially or fully-managed cluster.  For learning, I most often use a **fully-managed (free tier) cluster**.  Also, I usually use a single-node cluster to start.
 
