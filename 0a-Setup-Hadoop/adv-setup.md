@@ -41,6 +41,7 @@ In my 'Scaling Cloud Spark' course, I use Databricks running on AWS, as the comm
     
 - Setup Hadoop/Spark locally or on a 'raw' cloud VM, such as **AWS EC2**
     - NOT RECOMMENDED for learning - too complex to set up
+    - Link to Apache Hadoop main site - [link](https://hadoop.apache.org/)
 - Cloudera Learning VM - also NOT recommended, changes too often, documentation not aligned
     - link to Cloudera downloads - [link](https://www.cloudera.com/downloads.html)
 
