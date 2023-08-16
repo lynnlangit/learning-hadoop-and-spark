@@ -6,9 +6,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-
 import java.net.URI;
-
 import java.util.HashSet;
 import java.util.Set;
 import java.util.*;
@@ -22,7 +20,6 @@ import org.apache.hadoop.util.StringUtils;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.FileSplit;
 import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
-
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 
@@ -63,7 +60,6 @@ public class WordCount {
           job.getConfiguration().setBoolean("wordcount.skip.patterns", true);
           i += 1;
           job.addCacheFile(new Path(args[i]).toUri());
-          // this demonstrates logging
           LOG.info("Added file to the distributed cache: " + args[i]);
         }
       }
@@ -72,9 +68,8 @@ public class WordCount {
     job.setMapperClass(Map.class);
 
     job.setCombinerClass(Reduce.class);
-    //job.setReducerClass(Reduce.class);
-
-    //new section - correct method placement?
+    job.setReducerClass(Reduce.class);
+         
     private String input;
     private Set<String> patternsToSkip = new HashSet<String>();
     if (context.getInputSplit() instanceof FileSplit) {
@@ -89,7 +84,6 @@ public class WordCount {
     if (word.isEmpty() || patternsToSkip.contains(word)) {
         continue;
       }
-    // end new section
 
     job.setInputFormatClass(TextInputFormat.class);
     job.setOutputFormatClass(TextOutputFormat.class);
@@ -99,7 +93,6 @@ public class WordCount {
     job.waitForCompletion(true);
  }
 
- //new section - correct method placement?
  private void parseSkipFile(URI patternsURI) {
     LOG.info("Added file to the distributed cache: " + patternsURI);
     try {
