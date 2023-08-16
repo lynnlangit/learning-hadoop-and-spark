@@ -17,10 +17,16 @@ More detail for each cloud vendor setup listed below.
 Even more detail on my 'advanced setup notes page' - [link](https://github.com/lynnlangit/learning-hadoop-and-spark/blob/master/0a-Setup-Hadoop/adv-setup.md)
 
 - **GCP Dataproc** - "partially-managed"
-    - install Hadoop/Spark by default 
-    - add Conda/Jupyter libraries (select `install components`)
-    - includes Spark History WebUI
-    - can use GCE (VMs) or GKE (K8 'standard-cluster w/workload identity enabled' only,  NOT 'auto-pilot-cluster')
+    - install Hadoop and/or Spark by default
+        - other libraries optional (Hive, etc...)
+        - add Conda/Jupyter libraries (select `install components`)
+        - includes Spark History WebUI
+    - can use GCE (VMs) for Hadoop/Spark workloads
+        - w/ included tooling (web ui for YARN, etc...)
+    - use GKE (K8) for rapidly scaling Spark workloads
+        - w/ K8 tooling
+        - requires 'standard-cluster w/workload identity enabled' 
+        - NOT 'auto-pilot-cluster'
 - **AWS EMR** - "partially-managed"
     - select Spark install from 4 available EMR configurations
     - can create/use EMR Jupyter notebook (alternative to SSH client)
