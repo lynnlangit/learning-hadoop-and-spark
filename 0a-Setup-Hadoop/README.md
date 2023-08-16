@@ -20,7 +20,7 @@ Even more detail on my 'advanced setup notes page' - [link](https://github.com/l
     - install Hadoop/Spark by default 
     - add Conda/Jupyter libraries (select `install components`)
     - includes Spark History WebUI
-    - can use GCE (VMs) or GKE (K8 - NOT 'auto-pilot-cluster')
+    - can use GCE (VMs) or GKE (K8 'standard-cluster' only,  NOT 'auto-pilot-cluster')
 - **AWS EMR** - "partially-managed"
     - select Spark install from 4 available EMR configurations
     - can create/use EMR Jupyter notebook (alternative to SSH client)
