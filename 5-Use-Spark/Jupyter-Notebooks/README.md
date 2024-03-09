@@ -6,7 +6,8 @@
 
 ## Databricks Architecture
 
-Diagram from Databricks documentation (for AWS, concepts apply to Azure, GCP as well) --> https://docs.databricks.com/en/getting-started/overview.html
+Diagram from Databricks documentation --> https://docs.databricks.com/en/getting-started/overview.html
+- Shown for AWS, concepts apply to DB on Azure or GCP as well
 
 <img src="https://docs.databricks.com/en/_images/databricks-architecture-aws.png" width=900>
 
