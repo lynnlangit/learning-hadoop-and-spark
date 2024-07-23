@@ -9,11 +9,10 @@
 Diagram from Databricks documentation --> https://docs.databricks.com/en/getting-started/overview.html
 - Shown for AWS, concepts apply to DB on Azure or GCP as well
 
-<img src="https://docs.databricks.com/en/_images/databricks-architecture-aws.png" width=900>
-
+<kbd><img src="https://docs.databricks.com/en/_images/architecture.png" width=900></kbd>
 
 ## Databricks LakeHouse Architecture
 
 Diagram from Databricks documentation --> https://docs.databricks.com/en/lakehouse/index.html
 
-<img src="https://docs.databricks.com/en/_images/lakehouse-diagram.png">
+<kbd><img src="https://docs.databricks.com/en/_images/lakehouse-diagram.png" width=900></kbd>
