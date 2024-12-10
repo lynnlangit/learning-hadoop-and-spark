@@ -2,7 +2,7 @@
 
 Companion Repository to Linked In Learning Courses. See folder `Jupyter-Notebooks` for example notebooks from these courses and more.
 - Learning Hadoop
-- Scaling Cloud Spark  
+- Scaling Cloud Spark - see also my 'gcp-essentials' repo - Google Dataproc (managed Apache Spark) page at [link](https://github.com/lynnlangit/gcp-essentials/blob/master/4_data/4c_Dataproc/readme.md)
 - NEW in 2024 'Databricks GenAI' - watch this space for course release later this year
   
 Original `Learning Hadoop` - [link to course](https://www.lynda.com/Hadoop-tutorials/Hadoop-Fundamentals/191942-2.html)
